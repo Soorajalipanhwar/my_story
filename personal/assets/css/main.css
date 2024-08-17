@@ -170,7 +170,7 @@
 	}
 	p.description {
 		margin: 0 0 2em 0;
-		color: darkblue;
+		color: rgb(2, 3, 3);
     font-family: monospace;
 		font-style: italic;
 	}
