@@ -201,7 +201,6 @@ header p {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s;
-    animation: btn-move 2s  ease-in-out  infinite;
 }
 
 .button.big:hover, button[btn]:hover {
@@ -209,6 +208,7 @@ header p {
     border: none;
     box-shadow: 0 0 40px var(--button-bg-color);
     transform: scale(1.1);
+    animation: btn-move 2s  ease-in-out  infinite;
 }
 
 /* Toggle Theme Button */
