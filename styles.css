@@ -164,11 +164,28 @@ header p {
     transform: scale(1.05);
     background-color: var(--card-hover-background);
     box-shadow: 0 4px 20px var(--shadow-hover);
-    /* cursor: none; */
 }
 
 .description span {
     color: var(--red-color-start);
+}
+.links{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin-left: 45%;
+}
+.link1,.link2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.link1:hover,.link2:hover{
+    background-color: greenyellow;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
 }
 
 /* Buttons */
@@ -221,7 +238,6 @@ header p {
     background-image: var(--space-image);
     background-size: cover;
     color: white;
-    height: 300px ;
     animation: all 0.3s eas-in-out;
 }
 .two:hover ~ .headpic{
