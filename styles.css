@@ -201,6 +201,7 @@ header p {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s;
+    animation: btn-move 2s  ease-in-out  infinite;
 }
 
 .button.big:hover, button[btn]:hover {
@@ -307,4 +308,15 @@ body.dark .theme-toggle .icon.moon {
 .section-visible {
     opacity: 1;
     transform: translateY(0);
+}
+/* ----------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .one:hover{
+        height: fit-content;
+    }
+    @keyframes btn-move{
+        0%{ transform: translateY(0px);}
+        50%{transform: translateY(-8px);}
+        100%{transform: translateY(0px);}
+    }
 }
