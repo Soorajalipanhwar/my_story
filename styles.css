@@ -210,6 +210,11 @@ header p {
     transform: scale(1.1);
     animation: btn-move 2s  ease-in-out  infinite;
 }
+@keyframes btn-move{
+    0%{ transform: translateY(0px);}
+    50%{transform: translateY(-8px);}
+    100%{transform: translateY(0px);}
+}
 
 /* Toggle Theme Button */
 .theme-toggle {
