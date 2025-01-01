@@ -230,7 +230,7 @@ header p {
     overflow: hidden;
     height: 110px;
     position: relative;
-    transition: height 0.5s 0.5s ease-in;
+/*     transition: height 0.5s 0.5s ease-in; */
     animation: all 0.1s ease-in-out forwards;
 }
 
