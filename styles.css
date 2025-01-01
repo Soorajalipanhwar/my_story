@@ -311,8 +311,11 @@ body.dark .theme-toggle .icon.moon {
 }
 /* ----------------------------------------------------- */
 @media only screen and (max-width: 600px) {
-    .one:hover{
+    .one{
         height: fit-content;
+    }
+    .button.big, button[btn]{
+        animation: btn-move 2s  ease-in-out  infinite;
     }
     @keyframes btn-move{
         0%{ transform: translateY(0px);}
