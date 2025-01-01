@@ -238,6 +238,7 @@ header p {
     background-image: var(--space-image);
     background-size: cover;
     color: white;
+    height: 300px;
     animation: all 0.3s eas-in-out;
 }
 .two:hover ~ .headpic{
