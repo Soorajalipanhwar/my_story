@@ -255,7 +255,7 @@ button[btn]:hover {
   background-image: var(--space-image);
   background-size: cover;
   color: white;
-  height: fit-content;
+  height: 300px;
   animation: all 0.3s eas-in-out;
 }
 .two:hover ~ .headpic {
@@ -340,6 +340,9 @@ body.dark .theme-toggle .icon.moon {
 /* ----------------------------------------------------- */
 @media only screen and (max-width: 600px) {
   .one {
+    height: fit-content;
+  }
+  .one:hover {
     height: fit-content;
   }
   .button.big,
